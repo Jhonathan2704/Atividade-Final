@@ -79,7 +79,7 @@ Importe os CSVs tratados para o Looker Studio.
 
 bash
 
-# Comandos úteis para o GitHub (opcional)  
+## Comandos úteis para o GitHub (opcional)  
 git clone [seu-repositório]  
 pip install -r requirements.txt  # Se usar virtualenv  
 
