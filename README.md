@@ -78,6 +78,7 @@ Execute o notebook olist_analysis.ipynb no Google Colab.
 Importe os CSVs tratados para o Looker Studio.
 
 bash
+
 # Comandos úteis para o GitHub (opcional)  
 git clone [seu-repositório]  
 pip install -r requirements.txt  # Se usar virtualenv  
