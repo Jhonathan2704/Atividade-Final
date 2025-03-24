@@ -1,104 +1,54 @@
-Documentação do Projeto: Análise de E-commerce Brasileiro (Olist)
-Repositório no GitHub: [Link do seu repositório] (adicione depois)
-Conjunto de Dados: Brazilian E-Commerce Dataset (Kaggle)
+Análise de Dados de E-commerce Brasileiro (Olist)
+<div align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"> <img src="https://img.shields.io/badge/Looker%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Looker Studio"> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> </div>
+📌 Visão Geral
+Análise de dados de vendas da Olist (2016-2018) para identificar padrões de compra, desempenho logístico e satisfação dos clientes.
 
-📌 1. Objetivo do Projeto
-Analisar o desempenho de vendas, entregas e satisfação de clientes do marketplace Olist (2016-2018) para identificar:
+🔗 Dataset: Brazilian E-Commerce Public Dataset (Kaggle)
 
-Tendências de vendas por categoria/estado.
+🛠️ Tecnologias
+Análise: Python (Pandas, Matplotlib, Seaborn) no Google Colab
 
-Desempenho logístico (tempo de entrega).
+Visualização: Looker Studio
 
-Relação entre preço, frete e avaliações.
+Versionamento: GitHub
 
+📊 Principais Análises
+Top categorias por vendas: beleza_saude, esporte_lazer e informatica_acessorios.
 
-
-🛠️ 2. Ferramentas Utilizadas
-Ferramenta	Finalidade
-Google Colab	Limpeza e análise dos dados (Python/Pandas).
-Looker Studio	Visualização e dashboard interativo.
-GitHub	Documentação e versionamento.
-
-
-
-📊 3. Metodologia
-3.1. Coleta e Pré-processamento
-Fonte: Dados públicos da Olist (Kaggle) com 9 tabelas relacionadas.
-
-Tratamento no Colab:
-
-Unificação de tabelas (ex: pedidos + clientes + produtos).
-
-Cálculo de novas métricas (delivery_time, total_price).
-
-Tratamento de missing values e outliers.
-
-3.2. Análise Exploratória (EDA)
-Principais descobertas:
-
-Top 3 categorias mais vendidas:
-
-beleza_saude (23%), esporte_lazer (15%), informatica_acessorios (12%).
-
-Estados com maior tempo de entrega:
-
-RR (30 dias), AM (28 dias), AP (26 dias).
+Estados com maior tempo de entrega: RR (30 dias), AM (28 dias).
 
 Correlação negativa entre preço e frete (-0.34).
 
-(Inclua prints dos gráficos do Colab/Looker Studio no GitHub.)
-
-3.3. Visualização no Looker Studio
-Dashboard público: [Link do seu dashboard] (adicione depois)
-
-Filtros interativos: Período, estado, categoria.
-
-Visualizações-chave:
-
-Mapa de calor de vendas por estado.
-
-Linha do tempo de cancelamentos.
-
-Tabela dinâmica de produtos.
-
-
-
-📂 4. Estrutura do Repositório (GitHub)
-markdown
-
+📂 Estrutura do Projeto
+Copy
 olist-ecommerce-analysis/  
 ├── data/  
-│   ├── raw/                  # Dados brutos (CSVs originais)  
-│   └── processed/            # Dados tratados (orders_clean.csv, etc.)  
+│   ├── raw/                  # Dados originais  
+│   └── processed/            # Dados tratados  
 ├── notebooks/  
-│   └── olist_analysis.ipynb  # Código completo do Colab  
-├── docs/  
-│   └── report.md             # Relatório técnico (esta documentação)  
-└── README.md                 # Visão geral do projeto  
-
-
-
-📌 5. Como Reproduzir o Projeto
+│   └── analysis.ipynb        # Análise no Colab  
+└── README.md                 # Documentação  
+🚀 Como Executar
 Baixe os dados do Kaggle.
 
-Execute o notebook olist_analysis.ipynb no Google Colab.
+Execute o notebook analysis.ipynb no Google Colab.
 
 Importe os CSVs tratados para o Looker Studio.
 
 bash
+Copy
+git clone [seu-repositorio]  
+pip install pandas matplotlib seaborn  # Dependências  
+📈 Dashboard
+Acesse o dashboard interativo: [Link do Looker Studio] (adicione após publicação)
 
-Comandos úteis para o GitHub (opcional)  
-git clone [seu-repositório]  
-pip install -r requirements.txt  # Se usar virtualenv  
+📝 Insights
+⚠️ Problema: Frete alto em categorias de baixo valor.
 
-🔍 6. Insights e Recomendações
-Oportunidade: Categorias premium (informática) têm menor frete proporcional.
+💡 Oportunidade: Pacotes promocionais para categorias com alta avaliação.
 
-Alerta: Clientes do Norte/Nordeste apresentam maior taxa de cancelamento (+15%).
+<div align="center"> <img src="https://via.placeholder.com/600x400?text=Exemplo+de+Gráfico" alt="Dashboard Preview"> </div>
+📜 Licença
+Este projeto utiliza dados públicos sob a licença CC BY-NC-SA 4.0.
 
-Ação: Criar promoções para categorias com alta avaliação (>4.5) mas baixo volume.
-
-📜 7. Referências
-Base de Dados Olist (Kaggle).
-
-Documentação do Looker Studio.
+Feito com ❤️ por Jhonathan Willian Silva. Contribuições são bem-vindas!
