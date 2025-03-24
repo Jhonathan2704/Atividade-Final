@@ -11,11 +11,15 @@ Desempenho logístico (tempo de entrega).
 
 Relação entre preço, frete e avaliações.
 
+
+
 🛠️ 2. Ferramentas Utilizadas
 Ferramenta	Finalidade
 Google Colab	Limpeza e análise dos dados (Python/Pandas).
 Looker Studio	Visualização e dashboard interativo.
 GitHub	Documentação e versionamento.
+
+
 
 📊 3. Metodologia
 3.1. Coleta e Pré-processamento
@@ -57,6 +61,8 @@ Linha do tempo de cancelamentos.
 
 Tabela dinâmica de produtos.
 
+
+
 📂 4. Estrutura do Repositório (GitHub)
 markdown
 
@@ -70,6 +76,8 @@ olist-ecommerce-analysis/
 │   └── report.md             # Relatório técnico (esta documentação)  
 └── README.md                 # Visão geral do projeto  
 
+
+
 📌 5. Como Reproduzir o Projeto
 Baixe os dados do Kaggle.
 
@@ -79,7 +87,7 @@ Importe os CSVs tratados para o Looker Studio.
 
 bash
 
-## Comandos úteis para o GitHub (opcional)  
+Comandos úteis para o GitHub (opcional)  
 git clone [seu-repositório]  
 pip install -r requirements.txt  # Se usar virtualenv  
 
