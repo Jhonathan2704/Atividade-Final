@@ -16,6 +16,7 @@ Ferramenta	Finalidade
 Google Colab	Limpeza e análise dos dados (Python/Pandas).
 Looker Studio	Visualização e dashboard interativo.
 GitHub	Documentação e versionamento.
+
 📊 3. Metodologia
 3.1. Coleta e Pré-processamento
 Fonte: Dados públicos da Olist (Kaggle) com 9 tabelas relacionadas.
@@ -58,7 +59,7 @@ Tabela dinâmica de produtos.
 
 📂 4. Estrutura do Repositório (GitHub)
 markdown
-Copy
+
 olist-ecommerce-analysis/  
 ├── data/  
 │   ├── raw/                  # Dados brutos (CSVs originais)  
@@ -68,6 +69,7 @@ olist-ecommerce-analysis/
 ├── docs/  
 │   └── report.md             # Relatório técnico (esta documentação)  
 └── README.md                 # Visão geral do projeto  
+
 📌 5. Como Reproduzir o Projeto
 Baixe os dados do Kaggle.
 
@@ -76,10 +78,10 @@ Execute o notebook olist_analysis.ipynb no Google Colab.
 Importe os CSVs tratados para o Looker Studio.
 
 bash
-Copy
 # Comandos úteis para o GitHub (opcional)  
 git clone [seu-repositório]  
 pip install -r requirements.txt  # Se usar virtualenv  
+
 🔍 6. Insights e Recomendações
 Oportunidade: Categorias premium (informática) têm menor frete proporcional.
 
