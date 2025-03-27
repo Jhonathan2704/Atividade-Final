@@ -24,3 +24,6 @@ jupyter notebook olist_analysis.ipynb
 ## Principais Insights
 - Categoria mais vendida: beleza_saude
 - Estado com maior ticket médio: SP
+
+## Link para Visualização no Looker
+https://lookerstudio.google.com/reporting/7b864811-3e6a-47ec-b53d-e3d536d8b88c/page/p_ohhkuwr0qd/edit
